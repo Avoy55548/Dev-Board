@@ -268,3 +268,6 @@ document.getElementById("clear-btn").addEventListener('click',function(){
     document.getElementById("activity-log").innerText='';
 })
 
+document.getElementById("dicover-btn").addEventListener('click', function(){
+    console.log("hoise");
+})
