@@ -247,3 +247,7 @@ document.getElementById("complete-6").addEventListener('click', function(event){
     }
 })
 
+document.getElementById("clear-btn").addEventListener('click',function(){
+    document.getElementById("activity-log").innerText='';
+})
+
