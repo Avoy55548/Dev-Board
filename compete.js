@@ -1,3 +1,8 @@
+function getCurrentTime() {
+    const today = new Date();
+    const options = { hour: '2-digit', minute: '2-digit', hour12: true };
+    return today.toLocaleTimeString('en-US', options);
+}
 
 // first
 document.getElementById("complete-1").addEventListener('click', function(event){
@@ -19,7 +24,8 @@ document.getElementById("complete-1").addEventListener('click', function(event){
 
         const log= document.getElementById("activity-log");
         const p=document.createElement("p");
-        p.innerText=`You have completed the task ${card1} at 12:49 AM`;
+        const time = getCurrentTime();
+        p.innerText=`You have completed the task ${card1} at ${time}`;
         p.classList.add(
             "bg-gray-100", "p-4", "mb-4", "rounded-lg", "font-medium"
         );
@@ -33,7 +39,8 @@ document.getElementById("complete-1").addEventListener('click', function(event){
 
         const log= document.getElementById("activity-log");
         const p=document.createElement("p");
-        p.innerText=`You have completed the task ${card1} at 12:49 AM`;
+        const time = getCurrentTime();
+        p.innerText=`You have completed the task ${card1} at ${time}`;
         p.classList.add(
             "bg-gray-100", "p-4", "mb-4", "rounded-lg", "font-medium"
         );
@@ -61,7 +68,8 @@ document.getElementById("complete-2").addEventListener('click', function(event){
 
         const log= document.getElementById("activity-log");
         const p=document.createElement("p");
-        p.innerText=`You have completed the task ${card2} at 12:49 AM`;
+        const time = getCurrentTime();
+        p.innerText=`You have completed the task ${card2} at ${time}`;
         p.classList.add(
             "bg-gray-100", "p-4", "mb-4", "rounded-lg", "font-medium"
         );
@@ -75,7 +83,8 @@ document.getElementById("complete-2").addEventListener('click', function(event){
 
         const log= document.getElementById("activity-log");
         const p=document.createElement("p");
-        p.innerText=`You have completed the task ${card2} at 12:49 AM`;
+        const time = getCurrentTime();
+        p.innerText=`You have completed the task ${card2} at ${time}`;
         p.classList.add(
             "bg-gray-100", "p-4", "mb-4", "rounded-lg", "font-medium"
         );
@@ -102,7 +111,8 @@ document.getElementById("complete-3").addEventListener('click', function(event){
 
         const log= document.getElementById("activity-log");
         const p=document.createElement("p");
-        p.innerText=`You have completed the task ${card3} at 12:49 AM`;
+        const time = getCurrentTime();
+        p.innerText=`You have completed the task ${card3} at ${time}`;
         p.classList.add(
             "bg-gray-100", "p-4", "mb-4", "rounded-lg", "font-medium"
         );
@@ -116,7 +126,8 @@ document.getElementById("complete-3").addEventListener('click', function(event){
 
         const log= document.getElementById("activity-log");
         const p=document.createElement("p");
-        p.innerText=`You have completed the task ${card3} at 12:49 AM`;
+        const time = getCurrentTime();
+        p.innerText=`You have completed the task ${card3} at ${time}`;
         p.classList.add(
             "bg-gray-100", "p-4", "mb-4", "rounded-lg", "font-medium"
         );
@@ -143,7 +154,8 @@ document.getElementById("complete-4").addEventListener('click', function(event){
 
         const log= document.getElementById("activity-log");
         const p=document.createElement("p");
-        p.innerText=`You have completed the task ${card4} at 12:49 AM`;
+        const time = getCurrentTime();
+        p.innerText=`You have completed the task ${card4} at ${time}`;
         p.classList.add(
             "bg-gray-100", "p-4", "mb-4", "rounded-lg", "font-medium"
         );
@@ -157,7 +169,8 @@ document.getElementById("complete-4").addEventListener('click', function(event){
 
         const log= document.getElementById("activity-log");
         const p=document.createElement("p");
-        p.innerText=`You have completed the task ${card4} at 12:49 AM`;
+        const time = getCurrentTime();
+        p.innerText=`You have completed the task ${card4} at ${time}`;
         p.classList.add(
             "bg-gray-100", "p-4", "mb-4", "rounded-lg", "font-medium"
         );
@@ -184,7 +197,8 @@ document.getElementById("complete-5").addEventListener('click', function(event){
 
         const log= document.getElementById("activity-log");
         const p=document.createElement("p");
-        p.innerText=`You have completed the task ${card5} at 12:49 AM`;
+        const time = getCurrentTime();
+        p.innerText=`You have completed the task ${card5} at ${time}`;
         p.classList.add(
             "bg-gray-100", "p-4", "mb-4", "rounded-lg", "font-medium"
         );
@@ -198,7 +212,8 @@ document.getElementById("complete-5").addEventListener('click', function(event){
 
         const log= document.getElementById("activity-log");
         const p=document.createElement("p");
-        p.innerText=`You have completed the task ${card5} at 12:49 AM`;
+        const time = getCurrentTime();
+        p.innerText=`You have completed the task ${card5} at ${time}`;
         p.classList.add(
             "bg-gray-100", "p-4", "mb-4", "rounded-lg", "font-medium"
         );
@@ -225,7 +240,8 @@ document.getElementById("complete-6").addEventListener('click', function(event){
 
         const log= document.getElementById("activity-log");
         const p=document.createElement("p");
-        p.innerText=`You have completed the task ${card6} at 12:49 AM`;
+        const time = getCurrentTime();
+        p.innerText=`You have completed the task ${card6} at ${time}`;
         p.classList.add(
             "bg-gray-100", "p-4", "mb-4", "rounded-lg", "font-medium"
         );
@@ -239,7 +255,8 @@ document.getElementById("complete-6").addEventListener('click', function(event){
 
         const log= document.getElementById("activity-log");
         const p=document.createElement("p");
-        p.innerText=`You have completed the task ${card6} at 12:49 AM`;
+        const time = getCurrentTime();
+        p.innerText=`You have completed the task ${card6} at ${time}`;
         p.classList.add(
             "bg-gray-100", "p-4", "mb-4", "rounded-lg", "font-medium"
         );
