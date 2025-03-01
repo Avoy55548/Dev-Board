@@ -269,5 +269,5 @@ document.getElementById("clear-btn").addEventListener('click',function(){
 })
 
 document.getElementById("dicover-btn").addEventListener('click', function(){
-    console.log("hoise");
+    window.location.href="./blog.html"
 })
