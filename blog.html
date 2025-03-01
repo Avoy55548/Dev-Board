@@ -37,21 +37,74 @@
               >
             </div>
           </div>
-          <div class="flex-none">
-            <div class="flex gap-15">
-              <div class="flex gap-1">
-                <img src="./assets/checkbox.png" alt="" srcset="" />
-                <p id="nav-num" class="text-2xl font-bold">23</p>
-              </div>
-              <div>
-                <button class="theme-button">
-                  <img src="./assets/theme-btn.png" alt="" srcset="" />
-                </button>
-              </div>
-            </div>
+          <div>
+            <button
+              id="back-btn"
+              class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl bg-blue-600 text-white"
+            >
+              Back To Desk
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Section -->
+      <section class="bg-white p-6 rounded-md shadow-md">
+        <h2 class="text-center text-2xl font-bold mb-6">Blogs</h2>
+        <div class="space-y-4">
+          <div class="p-4 border rounded-md bg-gray-50">
+            <h3 class="font-semibold">
+              Question-1: What are the different ways to select an element in
+              the DOM?
+            </h3>
+            <p class="text-gray-600">
+              Different ways are- 1.by ID,, 2.by class Name, 3.by Tag Name, 4.by
+              Attribute, 5.by Elements.
+            </p>
+          </div>
+          <div class="p-4 border rounded-md bg-gray-50">
+            <h3 class="font-semibold">
+              Question-2: What is the difference between innerHTML, innerText,
+              and textContent?
+            </h3>
+            <p class="text-gray-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit...
+            </p>
+          </div>
+          <div class="p-4 border rounded-md bg-gray-50">
+            <h3 class="font-semibold">
+              Question-3: What is event delegation in the DOM?
+            </h3>
+            <p class="text-gray-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit...
+            </p>
+          </div>
+          <div class="p-4 border rounded-md bg-gray-50">
+            <h3 class="font-semibold">
+              Question-4: What is event bubbling in the DOM?
+            </h3>
+            <p class="text-gray-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit...
+            </p>
+          </div>
+          <div class="p-4 border rounded-md bg-gray-50">
+            <h3 class="font-semibold">
+              Question-5: How do you create, add, and remove elements using
+              JavaScript?
+            </h3>
+            <p class="text-gray-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit...
+            </p>
           </div>
         </div>
       </section>
     </section>
+    <script>
+      document
+        .getElementById("back-btn")
+        .addEventListener("click", function () {
+          window.location.href = "./index.html";
+        });
+    </script>
   </body>
 </html>
